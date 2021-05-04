@@ -13,5 +13,7 @@ public class histogram {
         File inputFile = new File (inputFileName);
         Scanner in = new Scanner (inputFile);
         PrintWriter out = new PrintWriter(outputFileName);
+        private static final String OUTPUT_LOCATION = "LOCATION";
+        private static final int SCALING_FACTOR = 100;
     }
 }
